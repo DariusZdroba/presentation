@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+
+/* Footer styling */
+footer {
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+    padding: 20px 0; /* Padding for spacing */
+    text-align: center; /* Centered text */
+}
+
+
+#navDiv {
+    background-image: url("../../public/secondtest.png"); /* Set the background image */
+    background-size: cover; /* Cover the entire navbar area */
+    background-position: center; /* Adjust to show more of the upper part */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 500px; /* Set height to ensure visibility of the image */
+    width: 100%; /* Full width */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between brand and nav items */
+    padding: 0 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+.custom-navbar {
+    display: flex; /* Flex layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between brand and nav items */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Max width for better control on larger screens */
+    margin: auto; /* Center the navbar */
+    padding: 0; /* No extra padding */
+}
+
+
+.navbar-brand {
+    font-size: 3rem; 
+    font-family: "New Amsterdam", sans-serif;
+    color: #fff; 
+    text-decoration: none; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+}
+
+.navbar-nav {
+    display: flex; 
+    list-style: none; 
+    gap: 60px; 
+    padding: 0; 
+    margin: 0; 
+}
+
+
+.nav-link {
+    font-size: 2.5rem; 
+    font-family: "New Amsterdam", sans-serif;
+    color: #fff; 
+    text-decoration: none; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); 
+    transition: color 0.3s; 
+}
+
+.nav-link:hover {
+    color: #ddd; 
+}
+
+@media (max-width: 768px) {
+    #navDiv {
+        height: 300px; 
+        background-position: top center; 
+    }
+    .navbar-nav {
+        gap: 20px; 
+    }
+    .nav-link, .navbar-brand {
+        font-size: 1.8rem; 
+    }
+}
+.nav-item {
+    position: relative; 
+}
+
+.nav-item .dropdown-menu {
+    color: #fff;
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; 
+    max-height: 300px; 
+    overflow-y: auto; 
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block; 
+}
+
+.nav-item .dropdown-menu .dropdown-item {
+    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.1); 
+    padding: 0.75rem 1.25rem; 
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.nav-item .dropdown-menu {
+    box-sizing: border-box; 
+    right: 0; 
+    left: auto; 
+}
+
+
+.custom-img {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .text-and-image-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between text and image */
+}
+
+.text-and-image-container img {
+    max-width: 100%; /* Ensure the image does not overflow */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-and-image-container .paragraph {
+    flex: 1; /* Allow paragraph to take available space */
+}
+.info-section {
+  position: relative; /* Ensure the container can be positioned relative to the viewport */
+}
+
+.text-and-images {
+  display: flex; /* Flexbox layout for larger screens */
+  justify-content: space-between; /* Space between text and images */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Space between text and images */
+}
+
+.text-content {
+  flex: 1; /* Allow text content to take available space */
+}
+
+.images-content {
+  flex: 0 0 250px; /* Fixed width for images column on larger screens */
+  display: flex;
+  flex-direction: column; /* Stack images vertically */
+  gap: 20px; /* Space between images */
+}
+
+.custom-img {
+  max-width: 100%; /* Ensure images don’t overflow their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .text-and-images {
+    flex-direction: column; /* Stack text and images vertically on smaller screens */
+    align-items: flex-start; /* Align items to the start of the container */
+  }
+
+  .images-content {
+    margin-top: 20px; /* Add space between text and images */
+    flex: none; /* Remove fixed width for images column */
+  }
+}/* Styling for the navbar toggle button */
+.navbar-toggler {
+    border: none; /* Remove the default border */
+    outline: none; /* Remove the default outline */
+}
+
+/* Customizing the toggle icon to be white */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    /* The above SVG sets the icon to white with some transparency */
+}

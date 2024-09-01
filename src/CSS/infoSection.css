@@ -1,0 +1,46 @@
+/* Container styling for InfoSection */
+.info-section {
+    background-color: #f8f9fa; /* Light background color for contrast */
+    padding: 50px 20px; /* Padding for spacing */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* Inner container styling */
+.container {
+    max-width: 800px; /* Maximum width for better control */
+    width: 100%; /* Full width */
+    text-align: center; /* Center text alignment */
+}
+
+/* Header styling */
+.section-header {
+    font-size: 3rem; /* Large font size for the header */
+    font-family: 'New Amsterdam', sans-serif; /* Consistent font style */
+    color: #333; /* Dark color for readability */
+    margin-bottom: 20px; /* Spacing below the header */
+}
+
+/* Paragraph styling */
+.section-paragraph {
+    font-size: 1.25rem; /* Slightly larger font size for paragraphs */
+    color: #555; /* Medium color for paragraphs */
+    line-height: 1.6; /* Line height for readability */
+    margin-bottom: 15px; /* Spacing below each paragraph */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .section-header {
+        font-size: 2.5rem; /* Adjust header size for smaller screens */
+    }
+    .section-paragraph {
+        font-size: 1rem; /* Adjust paragraph size for smaller screens */
+    }
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
