@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Navbar from './Navbar';
 import "./CSS/style.css"
 import Infosection from './Infosection';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { Route, HashRouter as Router, Routes } from 'react-router-dom';
 import About from './About';
 import Footer from './Footer';
 import Development from './Development';
