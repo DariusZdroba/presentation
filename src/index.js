@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Navbar from './Navbar';
 import "./CSS/style.css"
 import Infosection from './Infosection';
-import { Route, HashRouter as Router, Routes } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import About from './About';
 import Footer from './Footer';
 import Development from './Development';
@@ -12,7 +12,7 @@ import NotFound from './NotFound';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}> 
     <Navbar/>
     <Routes>
       <Route path="/" element={<Infosection />} />
