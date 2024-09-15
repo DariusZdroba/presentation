@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/presentation/static/css/main.e642558b.css",
-    "main.js": "/presentation/static/js/main.458e91a8.js",
-    "static/media/secondtest.png": "/presentation/static/media/secondtest.6185c8867d8e74552dd1.png",
-    "static/media/castle.jpg": "/presentation/static/media/castle.1636c2ea25f1d68a1ca4.jpg",
-    "static/media/travel2.jpeg": "/presentation/static/media/travel2.88f98ff032a2795ccfa6.jpeg",
-    "static/media/pc.jpeg": "/presentation/static/media/pc.c1b18f2bb4b3eebaf8d3.jpeg",
-    "static/media/travel.jpeg": "/presentation/static/media/travel.fdefb63e393b88b1199c.jpeg",
-    "static/media/burger.jpeg": "/presentation/static/media/burger.b73cd2bd868d75c124be.jpeg",
-    "index.html": "/presentation/index.html",
-    "main.e642558b.css.map": "/presentation/static/css/main.e642558b.css.map",
-    "main.458e91a8.js.map": "/presentation/static/js/main.458e91a8.js.map"
+    "main.css": "/static/css/main.4cb11999.css",
+    "main.js": "/static/js/main.582eaa9e.js",
+    "static/media/secondtest.png": "/static/media/secondtest.6185c8867d8e74552dd1.png",
+    "static/media/castle.jpg": "/static/media/castle.1636c2ea25f1d68a1ca4.jpg",
+    "static/media/travel2.jpeg": "/static/media/travel2.88f98ff032a2795ccfa6.jpeg",
+    "static/media/pc.jpeg": "/static/media/pc.c1b18f2bb4b3eebaf8d3.jpeg",
+    "static/media/travel.jpeg": "/static/media/travel.fdefb63e393b88b1199c.jpeg",
+    "static/media/burger.jpeg": "/static/media/burger.b73cd2bd868d75c124be.jpeg",
+    "index.html": "/index.html",
+    "main.4cb11999.css.map": "/static/css/main.4cb11999.css.map",
+    "main.582eaa9e.js.map": "/static/js/main.582eaa9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e642558b.css",
-    "static/js/main.458e91a8.js"
+    "static/css/main.4cb11999.css",
+    "static/js/main.582eaa9e.js"
   ]
 }
