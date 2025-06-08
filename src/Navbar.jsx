@@ -1,13 +1,11 @@
 import React from 'react';
-import './CSS/style.css';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div id="navDiv">
-    <nav className="navbar navbar-expand-lg navbar-light custom-navbar">
-      <div className="container-fluid" id="navMenu">
-        <a className="navbar-brand" href="/">Darius-Beniamin Zdroba</a>
+    <nav className="navbar navbar-expand-lg navbar-dark" style={{background: '#181a1b', padding: '0.5rem 2rem'}}>
+      <div className="container-fluid" style={{padding: 0}}>
+        <Link className="navbar-brand" to="/">Darius-Beniamin Zdroba</Link>
         <button 
           className="navbar-toggler" 
           type="button" 
@@ -21,7 +19,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
+              <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item dropdown">
               <a 
@@ -41,7 +39,6 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-    </div>
   );
 }
 

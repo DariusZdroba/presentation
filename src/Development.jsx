@@ -1,51 +1,22 @@
 import React from 'react';
-import computer from "./images/pc.jpeg";
 import './CSS/style.css';
 
 const Development = () => {
   return (
-    <section className="info-section2">
-      <div className="container">
-        <h1 className='section-header'>
-            Career (work in progress)
-        </h1>
-        <p className="section-paragraph">
-          To keep it short, I am about to finish my first Software Engineering intern role <b>@Snyk</b>, and I'm on my last year of masters 🎓 at the Faculty of Mathematics and Informatics from UBB Cluj-Napoca.
-        </p>
-        <br />
-        <br />
-        <span className='h2'>⚠️</span>
-        <p className='text-danger h2'><b>Warning, I am about to ramble on why I'm into tech</b></p>
-        <span className='h2'>⚠️</span>
-        <br /> <br />
-
-        <p className="section-paragraph">
-          I feel like every <b>passion</b> starts from some kind of <b>spark✨</b>, anyone should have something about themselves that they do, that makes them love their passion.
-          <br />
-          <br />
-          <b>For me</b>, it started from a realy early age👶🏼, I got my first computer in <b>2004-2005</b>, when I was <b>3-4 years old</b> 🖥️, along with some old-school games I have played such as <b>Hercules, Age of Empires, Prehistorik</b> and others I can't recall, I also started exploring, I had a Windows 98 machine and I started looking into all <b>directories and files</b> 📁📁, to see what's happening there, how it's working 🤯.
-          <br />
-          <br />
-          My curious nature couldn't grasp how it worked, I would always disassemble my toys🔫 just to see what's inside and how they work 🔩.
-          <br />
-          <br />
-        </p>
-
-        <div className="text-and-image-container2">
-          <p className="section-paragraph">
-            This <b>curiosity</b> was fulfilled when <b>I was 13</b> 🤩, I got to make my first computer from <b>scratch</b> 👨🏽‍💻. I was (still am) into video games 🎮, and I was dreaming for years to build my own PC (mainly to play games). <b>My parents</b> were understandably <b>skeptical</b> on giving a 10-13 year old such amount of <b>money</b> 🤑 and letting <b>him build</b> his own computer, but I eventually <b>got to them </b>🙊.
-          </p>
-          <img src={computer} alt="Picture of the computer I built" className="img-fluid rounded border border-primary custom-img"/>
+    <section className="info-section" style={{background: '#181a1b', color: '#fff', padding: '32px 0 0 0'}}>
+      <div className="container" style={{maxWidth: 700, margin: '0 auto'}}>
+        <h1 className="section-header" style={{color: '#fff'}}>Experience</h1>
+        <div style={{marginBottom: 24}}>
+          <h2 style={{color: '#fff', fontSize: '1.3rem', marginBottom: 4}}>Snyk</h2>
+          <div style={{color: '#aaa', fontSize: '1.05rem', marginBottom: 4}}>Associate Software Engineer (Oct 2024 – Present)</div>
+          <div style={{color: '#aaa', fontSize: '1.05rem', marginBottom: 12}}>R&D Engineering Intern (Jul 2024 – Oct 2024)</div>
+          <ul style={{color: '#ccc', fontSize: '1.05rem', marginBottom: 0, paddingLeft: 0, listStyle: 'none', textAlign: 'left'}}>
+            <li style={{marginBottom: 8, paddingLeft: 24, position: 'relative'}}><span style={{position: 'absolute', left: 0, color: '#00bcd4'}}>•</span> Contributed to open-source projects, including the Snyk Language Server and IDE plugins (IntelliJ, VSCode, Eclipse, Visual Studio)</li>
+            <li style={{marginBottom: 8, paddingLeft: 24, position: 'relative'}}><span style={{position: 'absolute', left: 0, color: '#00bcd4'}}>•</span> Focused on backend development, security, and developer tooling</li>
+            <li style={{marginBottom: 8, paddingLeft: 24, position: 'relative'}}><span style={{position: 'absolute', left: 0, color: '#00bcd4'}}>•</span> Collaborated with cross-functional teams to deliver secure, scalable solutions</li>
+            <li style={{marginBottom: 8, paddingLeft: 24, position: 'relative'}}><span style={{position: 'absolute', left: 0, color: '#00bcd4'}}>•</span> Explored and implemented automation and workflow improvements</li>
+          </ul>
         </div>
-
-        <br />
-        <p className="section-paragraph">
-          This picture above is an actual picture of the <b>PC</b> while I was building it, my hands were clearly shaking, I knew if I wouldn't make it work, I'd be dead ☠️.
-        </p>
-
-        <p className='section-paragraph'>
-        I went on to pursue an informatics domain high school 🏫 where I've written my first lines of code 💻, in <b>Pascal</b>  (yes Pascal) 🧮, and things just picked up from there 🚀. I was fascinated by the idea of being able to build anything you can imagine ✨
-        </p>
       </div>
     </section>
   );

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
 
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #181a1b;
+}
 
 /* Footer styling */
 footer {
@@ -11,17 +16,12 @@ footer {
 
 
 #navDiv {
-    background-image: url("../../public/secondtest.png"); /* Set the background image */
-    background-size: cover; /* Cover the entire navbar area */
-    background-position: center; /* Adjust to show more of the upper part */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    height: 500px; /* Set height to ensure visibility of the image */
-    width: 100%; /* Full width */
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space between brand and nav items */
-    padding: 0 20px; /* Add padding for spacing */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 .custom-navbar {
     display: flex; /* Flex layout */
@@ -157,7 +157,7 @@ footer {
 }
 
 .custom-img {
-  max-width: 100%; /* Ensure images don’t overflow their container */
+  max-width: 100%; /* Ensure images don't overflow their container */
   height: auto; /* Maintain aspect ratio */
 }
 
